@@ -77,11 +77,13 @@ source venv/bin/activate
 Organiza tu proyecto de la siguiente manera:
 ```
 project_root/
-├── venv/                   # Entorno virtual
-├── requirements.txt        # Dependencias
-├── csv_merger.py           # Script principal
-└── data/                   # Directorio con los archivos CSV
-    └── tus_archivos_csv/
+├── venv/
+├── requirements.txt
+├── logs/
+├── csv_merger.py
+├── data/
+|    └── your_csv_files/
+└── output/
 ```
 
 ### Paso 2: Ejecutar el Script
@@ -154,5 +156,5 @@ Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo `LICENS
 
 ## Contacto
 Si tienes preguntas, sugerencias o necesitas ayuda:
-- **Correo Electrónico**: soporte_desarrolladores@example.com
-- **Issues en GitHub**: [GitHub Issues](https://github.com/tu-repositorio/issues)
+- **Correo Electrónico**: javoxdaemon@gmail.com
+- **Issues en GitHub**: [GitHub Issues](https://github.com/JavierVaronBueno)

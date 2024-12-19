@@ -79,9 +79,11 @@ Organize your project as follows:
 project_root/
 ├── venv/
 ├── requirements.txt
+├── logs/
 ├── csv_merger.py
-└── data/
-    └── your_csv_files/
+├── data/
+|    └── your_csv_files/
+└── output/
 ```
 
 ### Step 2: Run the Script
@@ -154,5 +156,5 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 
 ## Contact
 For issues, questions, or suggestions:
-- **Email**: developer_support@example.com
-- **GitHub Issues**: [GitHub Issues](https://github.com/your-repo/issues)
+- **Email**: javoxdaemon@gmail.com
+- **GitHub Issues**: [GitHub Issues](https://github.com/JavierVaronBueno)
