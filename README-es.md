@@ -110,10 +110,12 @@ project_root/
 
 ### Configuración de Variables
 En `csv_merger.py`, configura:
-- `directory` con la ruta donde están tus archivos CSV.
+- `directory_data` con la ruta donde están tus archivos CSV.
+- `directory_output` con la ruta donde se guardaran tus archivos CSV.
 - `patterns` como una lista de patrones base de nombres de archivo. Ejemplo:
     ```python
-    directory = r"c:\Users\TuUsuario\Downloads"
+    directory_data = r"c:\Users\TuUsuario\data"
+    directory_output = r"c:\Users\TuUsuario\output"
     patterns = ["USD_THB Historical Data", "EUR_USD Historical Data"]
     ```
 
